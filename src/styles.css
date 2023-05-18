@@ -1,0 +1,68 @@
+.isClose {
+  display: none;
+}
+
+.isOpen {
+  display: block;
+}
+
+.component {
+  padding: 0.8rem;
+  border-radius: 0.4rem;
+  cursor: pointer;
+  border: none;
+}
+
+/*--------------------------------------
+  カード型
+--------------------------------------*/
+.l-wrapper {
+  margin: 0.5rem;
+  width: 380px;
+}
+.card-radius {
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0,0,0,.2);
+}
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 0px rgba(0, 0, 0, .16);
+  color: #212121;
+  text-decoration: none;
+}
+
+.card__header {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card__title {
+  padding: 0 1.5rem 0;
+  font-size: 1.2rem;
+  order: 1;
+  font-weight: bold;
+  text-decoration: none;
+  border-bottom: solid 3px black;
+}
+
+.card__body {
+  padding: 0 1.5rem 1rem;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1300px;
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+.cards::after {
+	content: "";
+	display: block;
+  margin: 0.5rem;
+  width: 380px;
+}
